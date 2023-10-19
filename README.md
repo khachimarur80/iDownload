@@ -8,14 +8,14 @@ Toolkit to download pages as .md books with their images.
 
 This is a Chrome extension that downloads the images from the current page in the downloads folder. These images are grouped in Images directory, created within downloads folder. Upon finializing the downloading, it closes the current tab and adds a file Download.txt to downloads folder.
 
-![Example 1](assets/Ex-1.gif)
+<img src="assets/Ex-1.gif" width="80%">
 
 ### Markdownload extension
 
 You will also need the Markdownload chrome extension to download the md file. Make sure you have disabled the images, we already have our iDownload extension for that, but keep the Image Style. We will need the references to integrate our own image.
 
-![Example 2.1](assets/Ex-2.1.png)
-![Example 2.2](assets/Ex-2.2.png)
+<img src="assets/Ex-2.1.png" width="80%">
+<img src="assets/Ex-2.2.png" width="80%">
 
 ### iDownload.py 
 
@@ -23,17 +23,17 @@ You will also need the Markdownload chrome extension to download the md file. Ma
 This is the most important part. It offers a TKinter GUI app to run a specific script. The process is the following:
 
 1. Select a directory containing a .txt with the book's url for each book to download.
-![Example 1](assets/Ex-3.1.gif)
+<img src="assets/Ex-3.1.gif" width="80%">
 2. Select 4 points to click.
-![Example 1](assets/Ex-3.2.gif)
+<img src="assets/Ex-3.2.gif" width="80%">
 3. The script will automatically click these 4 points, downloading the .md with the 
 Markdownload extension, and the images with our iDownload extension.
-![Example 1](assets/Ex-3.3.gif)
+<img src="assets/Ex-3.3.gif" width="80%">
 4. Uppon finishing the downloads, the names and addresses will be updated, stored ina file for that "chapter", and included in the book's directory.
 5. Finally when finishing with one .txt file (a.k.a book) it will move the book directory to the desktop.
 6. Process will be repeated until all .txt files are covered.
 
-![Result](assets/result.png)
+<img src="assets/result.png" width="80%">
 ## How to Use `iDownloader.py` Script
 
 Clone the repository, activate a virtual environment, and execute the `iDownloader.py` script.
