@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "iDownload PLUS",
+  "version": "1.0",
+  "description": "Chrome extension to download images from a webpage.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
