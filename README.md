@@ -64,10 +64,10 @@ git clone https://github.com/khachimarur80/iDownload.git
 
 ### Step 2: Set Up a Virtual Environment
 
-1. Navigate into the cloned repository's directory:
+1. Navigate into the cloned repository's directory witht the script.
 
 ```
-cd iDownload
+cd iDownload/iDownload
 ```
 
 2. Activate the virtual environment.
