@@ -1,3 +1,0 @@
-([('iDownload',
-   '/Users/Kei/Desktop/Github/iDownload/iDownload/dist/iDownload',
-   'EXECUTABLE')],)
