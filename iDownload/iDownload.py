@@ -145,7 +145,7 @@ def download_books(path, pos1, pos2, pos3, pos4):
 
                     standarize_names(current_book, current_urls, count, file_lists)
 
-                    webbrowser.get("chrome").open(current_urls.pop(0))
+                    webbrowser.open(current_urls.pop(0))
                     remove_first_line(folder_path+"/"+current_book)
 
                     time.sleep(4)
@@ -185,7 +185,7 @@ def download_books(path, pos1, pos2, pos3, pos4):
 
         observer.join()
 
-    webbrowser.get("chrome").open(current_urls.pop(0))
+    webbrowser.open(current_urls.pop(0))
     print(current_urls)
     remove_first_line(folder_path+"/"+current_book)
 

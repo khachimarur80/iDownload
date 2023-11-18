@@ -5,7 +5,7 @@ a = Analysis(
     ['iDownload.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('icon.xpm', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -34,11 +34,10 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['icon.icns'],
 )
 app = BUNDLE(
     exe,
     name='iDownload.app',
-    icon='icon.icns',
+    icon=None,
     bundle_identifier=None,
 )
